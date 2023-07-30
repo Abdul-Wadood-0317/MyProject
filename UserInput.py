@@ -1,0 +1,15 @@
+#Taking input from User:   (int,float,eval() so eval can deal with int and float in operations)
+a = input("Enter your Name:\n")
+print("My Name is\n",a)
+
+x = input("Enter the First No:\n")   #x =int( input("Enter the First No:\n"))  
+y = input("Enter the Second No:\n")  #y =int( input("Enter the Second No:\n")) 
+print("The Output is:",int(x)+int(y))
+print("The value of", x,"+",y,"is:",int(x)+int(y))
+print("The value of", x,"-",y,"is:",int(x)-int(y))
+print("The value of", x,"*",y,"is:",int(x)*int(y))
+print("The value of", x,"/",y,"is:",int(x)/int(y))
+print("The value of", x,"%",y,"is:",int(x)%int(y))
+print("The value of", x,"//",y,"is:",int(x)//int(y))
+print("The value of", x,"**",y,"is:",int(x)**int(y))
+
