@@ -9,3 +9,8 @@ print(info)
 for value in info:
     print(value)
     
+s={10,20,30,40,50}
+print(s)
+
+for a in s:
+    print(a)
