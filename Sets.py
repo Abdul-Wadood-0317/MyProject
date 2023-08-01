@@ -8,3 +8,4 @@ print(info)
 
 for value in info:
     print(value)
+    
