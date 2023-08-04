@@ -4,4 +4,6 @@ d={
     'course_name':'Python',
     'fees':15000
 }
-print 
+
+f=json.dumps(d)
+print(type(f))
