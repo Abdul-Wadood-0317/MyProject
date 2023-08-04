@@ -9,5 +9,3 @@ from module1 import * # *means call all modules
 print(sum(10,20))
 print(mul(10, 20))
 
-
-
