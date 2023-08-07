@@ -1,3 +1,3 @@
 #Read and write json file
 import json
-file =open("post")
+file =open("post.json","r")
