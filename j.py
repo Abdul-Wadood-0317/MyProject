@@ -6,3 +6,5 @@ finaldata=json.loads(x)
 
 for a in finaldata:
     print(a['title'],a['userId'])
+
+#Now add new file of post.json
