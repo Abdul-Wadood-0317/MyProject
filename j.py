@@ -2,3 +2,4 @@
 import json
 file =open("post.json","r")
 x=file.read()
+finaldata=json.loads()
