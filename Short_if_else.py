@@ -12,4 +12,4 @@ else:
     print("B")
 
 c= 9 if a>b else 0
- p
+ ri
