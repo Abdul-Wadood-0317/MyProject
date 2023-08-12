@@ -3,8 +3,9 @@ class A:
     def displayA(self):
         print("Welcome to programming A")
     
-# class B(A):
-#     def displayB(self):
-#         print("Welcome to Programming B")
-obj=A()
+class B(A):
+    def displayB(self):
+        print("Welcome to Programming B")
+obj=B()
 obj.displayA()
+obj.displayB()
