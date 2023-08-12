@@ -8,3 +8,4 @@ while True:
         break
     m1=int(line.split(",")[0])
     m2=int(line.split(",")[0])
+    m2=int(line.split(",")[0])
