@@ -6,3 +6,4 @@ while True:
     line=f.readline()
     if not line:
         break
+    m1=int(line.split(",")[0])
