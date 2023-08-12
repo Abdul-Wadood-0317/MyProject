@@ -5,3 +5,8 @@ f =open('myfile.txt','r')
 text=f.read()
 print(text) 
 f.close()
+
+#Wrting A File
+f=open('myfile.txt','a')
+f.write('Hello,World!')
+f.close()
