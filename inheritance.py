@@ -12,7 +12,27 @@
 # obj.displayB()
 
 #Multi-Level inheritance:
+# class A:
+#     def displayA(self):
+#         print("Welcome to Programming A")
+
+# class B(A):
+#     def displayB(self):
+#         print("Welcome to programming B")
+
+# class C(B):
+#     def displayC(self):
+#         print("Welcome to Programming C")
+
+# obj =C()
+# obj.displayA()
+# obj.displayB()
+# obj.displayC()
+
+#Now Multi-Level Inheritance!
 class A:
     def displayA(self):
-        print("Welcome to Programming A")
-        
+        print("Welcome to programming A")
+class B:
+    def displayB(self):
+        print("Welcome to programming B")
