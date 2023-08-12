@@ -1,4 +1,5 @@
 #Inheritance is two or more object is called inheritance:
+#Single line Inheritance:
 class A:
     def displayA(self):
         print("Welcome to programming A")
