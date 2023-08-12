@@ -41,7 +41,6 @@ class C(A,B):
     def displayC(self):
         print("Welcome to programming C")
 
-
 obj=C()
 obj.displayA()
 obj.displayB()
