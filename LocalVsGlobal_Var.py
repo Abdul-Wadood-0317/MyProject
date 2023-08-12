@@ -6,3 +6,4 @@ def my_function():
     print(y)
 my_function()
 print(x)
+#don't extreme ,be consistent
