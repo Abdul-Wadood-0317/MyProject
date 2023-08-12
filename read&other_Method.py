@@ -10,3 +10,4 @@ while True:
     m2=int(line.split(",")[1])
     m3=int(line.split(",")[2])
     print(f"Marks of Student {i}in Math is:{m1*2}")
+    print(f"Marks of Student {i}in English is:{m1*2}")
