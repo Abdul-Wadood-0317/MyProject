@@ -10,6 +10,5 @@ f.close()
 f=open('myfile.txt','a')
 f.write('Hello,World!')
 f.close()
-with open('myfile.txt','a') as
-f:
+with open('myfile.txt','a') as f:
     f.write("Hey I am inside now")
