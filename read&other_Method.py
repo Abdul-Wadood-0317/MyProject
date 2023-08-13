@@ -14,6 +14,6 @@
 #     print(f"Marks of Student {i}in SST is:{m3}")
 #     print(line)
 f=open('myfile2.txt','w')
-lines=['line1\n','line2\n','line3']
+lines=['line1\n','line2\n','line3\n']
 f.writelines(lines)
 f.close()
