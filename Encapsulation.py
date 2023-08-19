@@ -7,4 +7,4 @@ class Student:
         print("Welcome to programming")
     
 obj=Student()
-#main kar 
+#main kar sakta
