@@ -7,4 +7,4 @@ class Student:
         print("Welcome to programming")
     
 obj=Student()
-#congratulate! you are amazing
+#congratulate! you are amazing,Al-humdulilah
