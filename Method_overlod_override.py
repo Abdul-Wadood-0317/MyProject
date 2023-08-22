@@ -12,3 +12,5 @@ obj1=Area()
 obj1.find_area()
 obj1.find_area(10)
 obj1.find_area(10,20)
+
+#Method overriding example:
