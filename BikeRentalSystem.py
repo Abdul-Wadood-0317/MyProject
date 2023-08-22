@@ -13,4 +13,17 @@ class bikeshop:
             self.stock=self.stock-q
             print("Total Prices",q*100)
             print("Total Bikes",self.stock)
-while
+while True:
+    obj=bikeshop(100)
+    uc=int(input('''
+1 Display Stocks
+2 Rent a Bike
+3 Exit
+'''))
+    if uc == 1:
+        obj.displayinfoBike()
+    elif uc ==2:
+        n=int(input("Enter the Quantity:"))
+        obj.rentForBike(n)
+    else:
+        break
