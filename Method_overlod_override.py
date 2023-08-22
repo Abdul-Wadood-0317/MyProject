@@ -23,3 +23,4 @@ class B(A):
         print("I am in B class")
 obj=B()
 obj.showData()
+#Alhumdulilah
