@@ -27,4 +27,4 @@ while True:
         obj.rentForBike(n)
     else:
         break
-
+#just continue
