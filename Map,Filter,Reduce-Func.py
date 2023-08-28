@@ -18,3 +18,15 @@ def filter_function (a):
 
 newl = list(filter(filter_function,l))
 print(newl)
+
+#Reduce 
+from functools import reduce
+#list of numbers
+numbers = [1,2,3,4,5]
+
+#Calculate sum of numbers using reduce
+def mysum(x,y):
+    return x+y
+sum = reduce(mysum,numbers)
+#print the sum
+print(sum)
