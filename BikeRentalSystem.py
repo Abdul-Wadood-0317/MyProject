@@ -8,7 +8,7 @@ class bikeshop:
         if q<0:
             print("Enter the positive value or greater than zero")
         elif q>self.stock:
-            print("Enter the vlaue (less than stack)")
+            print("Enter the vlaue (High than stack)")
         else:
             self.stock=self.stock-q
             print("Total Prices",q*100)
