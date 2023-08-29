@@ -58,8 +58,8 @@ class Programmer(Employee):
     def showLanguage(self):
         print("The default language is Python")
         
-e1 = Employee("Ali khan",400)
-e1.showDetails()
-e2 = Programmer("Abdul",4100)
-e2.showDetails()
-e2.showLanguage()
+# e1 = Employee("Ali khan",400)
+# e1.showDetails()
+# e2 = Programmer("Abdul",4100)
+# e2.showDetails()
+# e2.showLanguage()
