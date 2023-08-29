@@ -7,5 +7,5 @@ b = None
 print( a is b)  #exact location of object 
 # print(a is None)
 print( a == b)  #it gives values 
-
+#just move 
 
