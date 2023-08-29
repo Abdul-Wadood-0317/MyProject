@@ -19,6 +19,18 @@ class Person:
     occupation = 'Software Developer'
     networth = 10
     def info (self):
-        print(f"{self.name}is a {self.occupation}")
-obj =Person()
+        print(f"{self.name} is a {self.occupation}")
+a = Person()
+b = Person()
+c = Person()
+
+a.name = "Ali"
+a.occupation = 'Manager'
+
+b.name = 'Wali'
+b.occupation = 'HR'
+# print(a.name,a.occupation)
+a.info()
+b.info()
+c.info()
 
