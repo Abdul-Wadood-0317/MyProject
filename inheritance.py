@@ -63,4 +63,4 @@ e1.showDetails()
 e2 = Programmer("Abdul",4100)
 e2.showDetails()
 e2.showLanguage()
-#Don't stop bro
+#Don't stop bro,500k 
