@@ -63,4 +63,3 @@ e1.showDetails()
 e2 = Programmer("Abdul",4100)
 e2.showDetails()
 e2.showLanguage()
-#love your work ,do it consistent
