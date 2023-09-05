@@ -63,4 +63,3 @@ e1.showDetails()
 e2 = Programmer("Abdul",4100)
 e2.showDetails()
 e2.showLanguage()
-#bro,where are you? and what are you doing?,are you happy with your fucking LIFE
