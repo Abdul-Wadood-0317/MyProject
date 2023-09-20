@@ -6,12 +6,12 @@ class Student:
 
 class Subject(Student):     #inherited class
     pass
-obj1=Student()
+obj=Student()
 obj1=Subject()
 
 #Calling by object of Student Class
-# print(obj._name)
-# print(obj._funName())
+print(obj._name)
+print(obj._funName())
 
 #Calling by object of Subject Class
 print(obj1._name)
