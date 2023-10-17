@@ -12,4 +12,3 @@ rohan =Employee("AbdulWadood","760")
 print(rohan.name)
 print(rohan.id)
 print(rohan.lang)
-#love your code ,love your work
