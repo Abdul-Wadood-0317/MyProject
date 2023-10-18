@@ -8,7 +8,7 @@ class Programmer(Employee):
         super().__init__(name,id)
         self.lang = lang
 rohan =Employee("AbdulWadood","760")
-#waleed = Programmer("Asad","2345","Python")
-print(rohan.name)
-print(rohan.id)
-print(rohan.lang)
+waleed = Programmer("Asad","2345","Python")
+print(waleed.name)
+print(waleed.id)
+print(waleed.lang)
