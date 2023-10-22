@@ -31,4 +31,4 @@ class Employee:
 
     def __call__(self):
         print("Hey I am good boy")
-#give it a try bro
+#love yourself
