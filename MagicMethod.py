@@ -28,4 +28,7 @@ class Employee:
     
     def __repr__(self):
         return f"Employee('{self.name}')"
+
+    def __call__(self):
+        print("Hey I am good boy")
         
