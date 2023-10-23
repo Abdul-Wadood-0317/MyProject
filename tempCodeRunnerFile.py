@@ -1,2 +1,2 @@
-print(obj._name)
-# print(obj._funName())
+def __call__(self):
+    #     print("Hey I am good boy")
