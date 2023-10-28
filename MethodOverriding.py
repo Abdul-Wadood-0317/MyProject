@@ -12,9 +12,9 @@ class Circle(Shape):
         
     def area(self):
         return 3.14*super().area()
-rec = Shape(3,5)
-print(rec.area())
+# rec = Shape(3,5)
+# print(rec.area())
 
-c = Circle(2)
+c = Circle(5)
 print(c.area())
-
+#consume books bro
