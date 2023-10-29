@@ -17,4 +17,4 @@ class Circle(Shape):
 
 c = Circle(5)
 print(c.area())
-#love your code,Do practice of 10 hours a 
+#love your code,Do practice of 10 
