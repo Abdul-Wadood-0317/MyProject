@@ -17,4 +17,4 @@ class Circle(Shape):
 
 c = Circle(5)
 print(c.area())
-#loving code so much,what to do
+#loving code so much,what to do,follow my passion
