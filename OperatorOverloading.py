@@ -10,3 +10,8 @@ class Vector:
 V1 = Vector(3,5,6)
 print(V1)
 
+V2 = Vector(1,2,9)
+print(V2)
+
+print(V1+V2)
+print(type((V1+V2)))
