@@ -20,4 +20,4 @@ print(o.name)
 print(o.dance) 
 o.show()
 print(DancerEmployee.mro())
-#I have to work 
+#I have to work more hard 
