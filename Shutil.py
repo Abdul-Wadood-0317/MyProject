@@ -1,4 +1,5 @@
 import shutil
 import os
 
-os.remove("file.file")
+shutil.copy("shutil.py","main2.py")
+os.remove("main2.py")
