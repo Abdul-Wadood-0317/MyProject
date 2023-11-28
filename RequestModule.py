@@ -10,4 +10,3 @@ soup =BeautifulSoup(r.text,"html.parser")
 print(soup.prettify())
 # response = requests.get("https://www.wikipedia.com")
 # print(response.text)
-#
