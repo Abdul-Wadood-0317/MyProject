@@ -34,7 +34,7 @@ def fetch_news(api_key, topic):
 
 if __name__ == "__main__":
     # Replace 'YOUR_API_KEY' with your actual NewsAPI key
-    api_key = 'YOUR_API_KEY'
+    api_key = 'a6424b665b0343248fc27892d2b9b955'
 
     # Specify the topics you are interested in
     topics = ['business', 'technology', 'science', 'sports', 'health', 'entertainment']
