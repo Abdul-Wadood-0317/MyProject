@@ -1,45 +1,37 @@
-#Write a Python program that uses the NewsAPI and the request module to fetch the daily news related to different topics
 import requests
-from datetime import datetime
 
-def fetch_news(api_key, topic):
-    # NewsAPI endpoint URL
-    url = "https://newsapi.org/v2/top-headlines"
-
-    # Specify the parameters for the API request
+def get_news(api_key, topic):
+    base_url = "https://newsapi.org/v2/top-headlines"
     params = {
         'apiKey': api_key,
-        'country': 'us',  # You can change the country code if needed
-        'category': topic,
+        'q': topic,
     }
 
-    # Make the API request
-    response = requests.get(url, params=params)
+    response = requests.get(base_url, params=params)
 
-    # Check if the request was successful (status code 200)
     if response.status_code == 200:
-        # Parse the JSON response
-        news_data = response.json()
+        articles = response.json().get('articles', [])
 
-        # Print the headlines and articles
-        print(f"\nTop headlines in '{topic.capitalize()}' on {datetime.now().strftime('%Y-%m-%d')}:")
-        for i, article in enumerate(news_data['articles'], start=1):
-            print(f"{i}. {article['title']}")
-            print(f"   {article['url']}")
-            print()
-
+        if not articles:
+            print("No news found for the specified topic.")
+        else:
+            for index, article in enumerate(articles, 1):
+                print(f"--- Article {index} ---")
+                print(f"Title: {article['title']}")
+                print(f"Author: {article['author']}")
+                print(f"Description: {article['description']}")
+                print(f"URL: {article['url']}")
+                print("\n")
     else:
-        # Print an error message if the request was not successful
-        print(f"Error: Unable to fetch news. Status code: {response.status_code}")
+        print(f"Error {response.status_code}: {response.text}")
 
 if __name__ == "__main__":
-    # Replace 'YOUR_API_KEY' with your actual NewsAPI key
     api_key = 'a6424b665b0343248fc27892d2b9b955'
 
-    # Specify the topics you are interested in
-    topics = ['business', 'technology', 'science', 'sports', 'health', 'entertainment']
+    while True:
+        user_input = input("What type of news are you interested in? (Type 'exit' to quit): ")
 
-    # Fetch news for each topic
-    for topic in topics:
-        fetch_news(api_key, topic)
-#
+        if user_input.lower() == 'exit':
+            break
+
+        get_news(api_key, user_input)
