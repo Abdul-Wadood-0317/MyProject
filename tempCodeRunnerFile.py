@@ -1,2 +1,6 @@
-url = "www.geeksforgeeks.org"
-# r = requests.get(url)
+url="https://jsonplaceholder.typicode.com/posts"
+data = {
+    "title":'harry',
+    "body":'bhai',
+    "userId":12,
+    }
