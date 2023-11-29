@@ -42,4 +42,4 @@ if __name__ == "__main__":
     # Fetch news for each topic
     for topic in topics:
         fetch_news(api_key, topic)
-#code bro code only 
+#code bro code,only you can do it by your self
