@@ -1,4 +1,5 @@
 # from urllib import requests
+import requests
 from pip._vendor import requests
 from bs4 import BeautifulSoup
 import pip._vendor.requests
