@@ -7,3 +7,4 @@ gen = my_generator()
 
 for j in gen:
     print(j)
+#shariq is doing great,bro work on it your self
