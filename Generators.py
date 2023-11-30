@@ -7,4 +7,4 @@ gen = my_generator()
 
 for j in gen:
     print(j)
-#code bro,focus bro
+#code bro,love your passion
