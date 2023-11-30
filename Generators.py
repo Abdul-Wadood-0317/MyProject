@@ -7,4 +7,3 @@ gen = my_generator()
 
 for j in gen:
     print(j)
-#fi
