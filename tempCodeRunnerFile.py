@@ -1,6 +1,2 @@
-url="https://jsonplaceholder.typicode.com/posts"
-data = {
-    "title":'harry',
-    "body":'bhai',
-    "userId":12,
-    }
+ch = re.search(pattern,text)
+print(ma
