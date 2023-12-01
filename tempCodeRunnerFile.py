@@ -1,2 +1,3 @@
-ch = re.search(pattern,text)
-print(ma
+t1.join()
+t2.join()
+t3.join()
