@@ -15,4 +15,4 @@ def main():
     func(1)
 
     #Smae code using thread
-    #code bro code,Talk is cheap,show me code ,coding is 
+    #code bro code,Talk is cheap,show me code ,coding 
