@@ -31,4 +31,6 @@ t3.join()
 #Calculating Time
 time2 = time.perf_counter()
 print(time2-time1)
-    
+
+def poolingDemo():
+    with ThreadPoolExecutor() as executor:
