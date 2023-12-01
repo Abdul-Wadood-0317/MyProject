@@ -15,4 +15,4 @@ def main():
     func(1)
 
     #Smae code using thread
-    #programming is usually
+    #programming is usually taught
