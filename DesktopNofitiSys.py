@@ -7,4 +7,10 @@ notification_title = "Notification Title"
 notification_message = "Drink Water"
 
 notification_timeout = 5 #in seconds
-#Display
+#Display Notification:
+for i in range(5):
+    notification.notify(
+        title = notification_title,
+        message = notification_message,
+        timeout = notification_timeout
+        )
