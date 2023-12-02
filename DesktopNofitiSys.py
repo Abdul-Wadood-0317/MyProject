@@ -14,4 +14,4 @@ for i in range(5):
         message = notification_message,
         timeout = notification_timeout
         )
-#Selected for saylani mass IT,dukhi dillion ka 
+#Selected for saylani mass IT,dukhi dillion 
