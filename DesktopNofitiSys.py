@@ -14,4 +14,4 @@ for i in range(5):
         message = notification_message,
         timeout = notification_timeout
         )
-#Ya Allah pak meri madad farma,Ameen
+#Ya Allah pak meri madad farma
