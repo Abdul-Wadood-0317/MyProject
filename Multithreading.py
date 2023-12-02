@@ -44,3 +44,4 @@ def poolingDemo():
         results = executor.map(func,l)
         for result in results:
             print(result)
+poolingDemo()
